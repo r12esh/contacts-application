@@ -23,7 +23,7 @@ const Contact = ({uid, contactKey, contact }) => {
       })
 
     history.push("/contacts")
-  };
+  }; 
 
   const updateStar = () => {
     firebase

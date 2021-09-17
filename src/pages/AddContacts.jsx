@@ -148,7 +148,7 @@ const AddContacts = () => {
     dispatch({ type: types.SET_UPDATE_CONTACT_INFO, contactUpdateInfo: null })
     dispatch({ type: types.SET_UPDATE_CONTACT_KEY, contactUpdateKey: null })
     history.push("/contacts")
-  }
+  } 
 
   return (
     <div className="addToContacts">

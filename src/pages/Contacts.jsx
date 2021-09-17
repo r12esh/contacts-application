@@ -47,7 +47,7 @@ const Contacts = () => {
     dispatch({type:types.SET_UPDATE_CONTACT_KEY,contactUpdateKey:null})
     getContacts()
   }, [uid,history])
-
+ 
   return (
     <div className="contacts-page">
       <>

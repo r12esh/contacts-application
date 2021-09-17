@@ -26,7 +26,7 @@ const Login = () => {
       console.log(error);
     }
   }
-
+ 
   return (
     <div className="login-page" >
       <h1 style={{fontFamily:"Quicksand, sans-serif",marginTop:"100px",fontSize:"3em",color:"#0C1B33",textAlign:"center"}}>Welcome to your Contacts,</h1>
